@@ -36,7 +36,7 @@ public class CallDriverTest {
     }
 
     @Test
-    public void shouldLogInAndCallDriverSuccessfully() {
+    public void lLogInAndCallDriverSuccessfully() {
         loginPage.typeUserName(Data.userName);
         loginPage.typePassword(Data.password);
         loginPage.clickLogin();

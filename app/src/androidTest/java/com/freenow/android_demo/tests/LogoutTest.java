@@ -35,7 +35,7 @@ public class LogoutTest{
     }
 
     @Test
-    public void logoutAlreadyLoggedIn() {
+    public void logoutTest() {
         homePage.openDrawer();
         homePage.clickLogout();
     }

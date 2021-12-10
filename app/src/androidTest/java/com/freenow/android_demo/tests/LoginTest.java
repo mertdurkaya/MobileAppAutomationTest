@@ -27,7 +27,7 @@ public class LoginTest {
                     "android.permission.ACCESS_FINE_LOCATION");
 
     @Test
-    public void shouldLogInAndCallDriverSuccessfully() {
+    public void loginTest() {
         loginPage.typeUserName(Data.userName);
         loginPage.typePassword(Data.password);
         loginPage.clickLogin();
